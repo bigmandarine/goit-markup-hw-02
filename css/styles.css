@@ -1,18 +1,47 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+/* Шрифты */
+
+@font-face {
+  font-family: Raleway;
+  src: url("fonts/Raleway/Raleway-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Roboto-400;
+  src: url("fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Roboto-500;
+  src: url("fonts/Roboto/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Roboto-700;
+  src: url("fonts/Roboto/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Roboto-900;
+  src: url("fonts/Roboto/Roboto-Black.ttf");
+  font-weight: 900;
+}
+/* Тело */
 body {
   font-family: Roboto;
   color: #212121;
 }
+/* Лого */
 .logo {
   font-size: 26px;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
 }
+/* Интерактивные элементы */
 li > a:hover,
 :focus {
   color: #2196f3;
 }
-
+/* Кнопки */
 button[type="button"]:hover,
 :focus {
   color: #2196f3;
