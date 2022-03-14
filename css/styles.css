@@ -30,11 +30,47 @@ body {
   font-family: Roboto;
   color: #212121;
 }
-/* Лого */
-.logo {
+/* Шапка */
+.logo-text {
   font-size: 26px;
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
+  line-height: 2;
+  font-family: Raleway;
+  text-decoration: none;
+  color: #000000;
+}
+.logo-item {
+  color: #2196f3;
+}
+.nav-link {
+  font-size: 14px;
+  line-height: 1.14;
+  font-family: Roboto-500;
+  color: #212121;
+}
+.contacts {
+  font-family: Roboto-500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #757575;
+}
+/* Основное - кнопки филтры */
+.button-filter {
+  font-family: Roboto-500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #212121;
+}
+.portfolio-h3 {
+  font-family: Roboto-700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
+.portfolio-text {
+  font-family: Roboto-400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
 }
 /* Интерактивные элементы */
 li > a:hover,
@@ -45,4 +81,34 @@ li > a:hover,
 button[type="button"]:hover,
 :focus {
   color: #2196f3;
+}
+/* Подвал */
+.footer-section {
+  background-color: #2f303a;
+}
+.logo-footer {
+  font-size: 26px;
+  line-height: 2;
+  font-family: Raleway;
+  text-decoration: none;
+}
+.address-item {
+  color: white;
+  font-family: Roboto-400;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+.logo-footer-text {
+  color: #2196f3;
+}
+.logo-footer-text-two {
+  color: white;
+}
+.contacts-footer {
+  font-family: Roboto-400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #acacb0;
+  font-style: normal;
 }
