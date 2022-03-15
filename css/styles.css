@@ -30,7 +30,15 @@ body {
   font-family: Roboto;
   color: #212121;
 }
+/* PORTFOLIO HTML */
 /* Шапка */
+a {
+  text-decoration: none;
+}
+
+.line {
+  color: #ececec;
+}
 .logo-text {
   font-size: 26px;
   line-height: 2;
@@ -81,6 +89,7 @@ li > a:hover,
 button[type="button"]:hover,
 :focus {
   color: #2196f3;
+  cursor: pointer;
 }
 /* Подвал */
 .footer-section {
@@ -91,6 +100,15 @@ button[type="button"]:hover,
   line-height: 2;
   font-family: Raleway;
   text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+.logo-footer-text {
+  color: #2196f3;
+}
+.logo-footer-text-two {
+  color: white;
 }
 .address-item {
   color: white;
@@ -98,12 +116,7 @@ button[type="button"]:hover,
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
-}
-.logo-footer-text {
-  color: #2196f3;
-}
-.logo-footer-text-two {
-  color: white;
+  letter-spacing: 0.03em;
 }
 .contacts-footer {
   font-family: Roboto-400;
@@ -111,4 +124,91 @@ button[type="button"]:hover,
   line-height: 1.71;
   color: #acacb0;
   font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+/* INDEX HTML */
+/* H1 section */
+.top-section {
+  background-color: #2f303a;
+}
+.h1-text {
+  font-family: Roboto-900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffff;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.button-h1-section {
+  background-color: #2196f3;
+}
+.h1-section-button-text {
+  font-family: Roboto-700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #ffff;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+/* Наши преимущества */
+.our-advantages-list {
+  font-family: Roboto-400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.our-advantages-h3 {
+  font-family: Roboto-700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+/* Чем мы занимаемся */
+.what-we-do-text {
+  font-family: Roboto-700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* Наша команда */
+.our-team-section {
+  background-color: #f5f4fa;
+}
+.our-team {
+  font-family: Roboto-700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.our-team-name {
+  font-family: Roboto-500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.our-team-profession {
+  font-family: Roboto-400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
