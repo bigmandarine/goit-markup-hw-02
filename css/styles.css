@@ -37,6 +37,13 @@ ul {
   font-weight: 500;
   color: var(--black-text-color);
 }
+/* Кнопки навигации сайта */
+#studio {
+  color: var(--accent-color);
+}
+#portfolio {
+  color: var(--accent-color);
+}
 .contacts {
   font-weight: 500;
   font-size: 14px;
