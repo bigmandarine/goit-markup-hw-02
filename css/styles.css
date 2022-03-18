@@ -7,6 +7,7 @@
   --our-team-section-color: #f5f4fa;
   --footer-contacts-color: #acacb0;
   --nav-button-color: #f5f4fa;
+  --button-hover-blue: #188ce8;
 }
 /* Тело */
 body {
@@ -188,17 +189,17 @@ button[type='button']:hover,
   text-align: center;
 }
 .button-h1-section {
-  background-color: var(--nav-button-color);
+  background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  color: #212121;
+  color: var(--white-color);
   letter-spacing: 0.06em;
   text-align: center;
 }
 .button-h1-section:hover,
 :focus {
-  background-color: var(--accent-color);
+  background-color: var(--button-hover-blue);
   color: var(--white-color);
 }
 
